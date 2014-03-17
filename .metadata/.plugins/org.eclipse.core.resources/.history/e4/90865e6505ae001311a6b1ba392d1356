@@ -1,0 +1,7 @@
+package it.mexican.javadesignpatterns.strategy.context;
+
+public class ElementList {
+	
+	ElementList(){}
+
+}

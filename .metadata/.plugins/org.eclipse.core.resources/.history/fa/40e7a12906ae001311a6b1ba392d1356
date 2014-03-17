@@ -1,0 +1,28 @@
+package it.mexican.javadesignpatterns.strategy.main;
+
+import javax.xml.ws.spi.Invoker;
+
+public class RunStrategyPattern {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+        
+		Light  testLight = new Light();
+        LightOnCommand testLOC = new LightOnCommand(testLight);
+        LightOffCommand testLFC = new LightOffCommand(testLight);
+        
+        Invoker testInvoker = new Invoker(testLOC,testLFC);       
+        testInvoker.on();
+        testInvoker.off();
+        
+        Fan testFan = new Fan( );
+        FanOnCommand testFOC = new FanOnCommand(testFan);
+        FanOffCommand testFFC = new FanOffCommand(testFan);
+        
+        Invoker testInvokerTwo = new Invoker(testFOC,testFFC);
+        testInvokerTwo.on();
+        testInvokerTwo.off(); 
+	}
+}

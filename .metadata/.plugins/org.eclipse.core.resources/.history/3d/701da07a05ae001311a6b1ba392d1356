@@ -1,0 +1,9 @@
+package it.mexican.javadesignpatterns.strategy.context;
+
+public class ElementList {
+	
+	public ElementList(){}
+	
+	public void setSortAlgorithm(){}
+
+}

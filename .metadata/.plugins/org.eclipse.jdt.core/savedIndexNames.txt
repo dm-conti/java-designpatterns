@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/naruto/git/java-designpatterns/.metadata/.plugins/org.eclipse.jdt.core
+3195308322.index
+2243479729.index
+1994101.index

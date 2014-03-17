@@ -1,0 +1,7 @@
+package it.mexican.javadesignpatterns.strategy;
+
+public interface SortAlgorithm {
+	
+	public List sort(List unSortedList);
+
+}

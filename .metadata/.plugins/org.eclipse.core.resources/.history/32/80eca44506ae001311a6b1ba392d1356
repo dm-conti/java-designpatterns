@@ -1,0 +1,13 @@
+package it.mexican.javadesignpatterns.strategy.main;
+
+
+public class RunStrategyPattern {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+        
+		
+	}
+}

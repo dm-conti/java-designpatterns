@@ -1,0 +1,16 @@
+package it.mexican.javadesignpatterns.strategy.main;
+
+import it.mexican.javadesignpatterns.strategy.context.ElementList;
+
+
+public class RunStrategyPattern {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+        
+		ElementList context = new ElementList();
+		context.setSortAlgorithm(sortAlgorithm);
+	}
+}

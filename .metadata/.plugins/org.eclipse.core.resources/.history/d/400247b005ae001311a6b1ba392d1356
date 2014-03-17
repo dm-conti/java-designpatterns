@@ -1,0 +1,19 @@
+package it.mexican.javadesignpatterns.strategy.context;
+
+import java.util.List;
+
+import it.mexican.javadesignpatterns.strategy.SortAlgorithm;
+
+public class ElementList {
+	private SortAlgorithm sortAlgorithm;
+	private List list;
+	
+	public ElementList(){
+		this.sortAlgorithm = sortAlgorithm;
+	}
+	
+	public void setSortAlgorithm(SortAlgorithm sortAlgorithm){
+		this.sortAlgorithm = sortAlgorithm;
+	}
+	
+}

@@ -1,0 +1,15 @@
+package it.mexican.javadesignpatterns.test.command;
+
+import static org.junit.Assert.*;
+import junit.framework.Assert;
+
+import org.junit.Test;
+
+public class CommandPatternTest {
+
+	@Test
+	public void test() {
+		Assert.assertTrue(condition);
+	}
+
+}

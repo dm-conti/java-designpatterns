@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;it.mexican.javadesignpatterns.strategy.main.RunCommandPattern&apos; to &apos;RunStrategyPattern&apos;&#x0A;- Original project: &apos;strategy-pattern&apos;&#x0A;- Original element: &apos;it.mexican.javadesignpatterns.strategy.main.RunCommandPattern&apos;&#x0A;- Renamed element: &apos;it.mexican.javadesignpatterns.strategy.main.RunStrategyPattern&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RunCommandPattern&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;it.mexican.javadesignpatterns.strategy.main{RunCommandPattern.java[RunCommandPattern" matchStrategy="1" name="RunStrategyPattern" qualified="false" references="true" similarDeclarations="false" stamp="1395082712458" textual="false" version="1.0"/>
+</session>

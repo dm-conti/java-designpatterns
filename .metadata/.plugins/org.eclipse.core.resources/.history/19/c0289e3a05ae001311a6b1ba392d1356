@@ -1,0 +1,5 @@
+package it.mexican.javadesignpatterns.strategy;
+
+public interface SortAlgorithm {
+
+}

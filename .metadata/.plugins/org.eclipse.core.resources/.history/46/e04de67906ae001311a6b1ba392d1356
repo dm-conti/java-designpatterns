@@ -1,0 +1,18 @@
+package it.mexican.javadesignpatterns.strategy.main;
+
+import it.mexican.javadesignpatterns.strategy.context.ElementList;
+import it.mexican.javadesignpatterns.strategy.implementation.BubbleSortAlgorithm;
+
+
+public class RunStrategyPattern {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+        
+		ElementList context = new ElementList();
+		context.addElement(values);
+		context.setSortAlgorithm(new BubbleSortAlgorithm());
+	}
+}
